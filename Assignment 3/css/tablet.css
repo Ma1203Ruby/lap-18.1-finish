@@ -1,0 +1,36 @@
+/* Tabblet and under */
+/* large (lg) >=992px
+  medium (md) >=768px
+  small (sm) >= 576px*/
+@media (min-width: 576px) and (max-width: 992px) {
+  #banner {
+    min-height: 500px;
+  }
+
+  #banner .banner-title {
+    position: relative;
+    left: unset;
+  }
+
+  #nav-bar .container {
+    padding: 0px 40px;
+  }
+
+  #nav-bar .nav-middle {
+    border-left: #141212 1px solid;
+    border-right: #141212 1px solid;
+    border-bottom: #141212 1px solid;
+  }
+  #job-info .container {
+    column-count: 2;
+  }
+
+  #certificate img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .project-1-content tbody > *:nth-child(3) {
+    color: brown;
+  }
+}
